@@ -1,5 +1,45 @@
 # Sorting-Visualizer
 
+https://user-images.githubusercontent.com/87855802/158629781-8a34413f-60f9-4872-b224-df60b1307b38.mp4
 
-https://user-images.githubusercontent.com/87855802/158626127-be048ddd-5d28-447e-b612-08b27d06b121.mp4
 
+# Features Added
+✅ Control Visualization Speed
+
+✅ Change array size (30 -> 400)
+
+✅ Randomize Input
+
+✅ Choose various algorithms
+
+✅ Stop visualization
+
+# Features to Add
+🔧 Make Interface More Mobile Friendlly
+
+🔧 Visualization with sound
+
+🔧 ToolTip at Size Slider
+
+# Algorithms Visualized
+✅ Bubble Sort
+
+✅ Insertion Sort
+
+✅ Selection Sort
+
+✅ QuickSort (Lumoto Partition)
+
+✅ Merge Sort
+# Algorithms to Add
+
+✅ QuickSort (Hoarse Partition)
+
+✅ Shell Sort
+
+✅ Radix Sort
+
+# Technologies Used
+✅ HTML
+✅ CSS
+✅ Vanilla JavaScript

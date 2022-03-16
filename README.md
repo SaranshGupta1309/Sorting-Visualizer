@@ -36,13 +36,15 @@ https://user-images.githubusercontent.com/87855802/158629781-8a34413f-60f9-4872-
 ✅ Merge Sort
 # Algorithms to Add
 
-✅ QuickSort (Hoarse Partition)
+🔧 QuickSort (Hoarse Partition)
 
-✅ Shell Sort
+🔧 Shell Sort
 
-✅ Radix Sort
+🔧 Radix Sort
 
 # Technologies Used
 ✅ HTML
+
 ✅ CSS
+
 ✅ Vanilla JavaScript

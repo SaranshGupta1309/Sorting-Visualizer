@@ -1,3 +1,6 @@
+# Site Link
+https://saransh-gupta-sorting-visualizer.netlify.app/
+
 # Sorting-Visualizer
 
 https://user-images.githubusercontent.com/87855802/158629781-8a34413f-60f9-4872-b224-df60b1307b38.mp4
@@ -6,7 +9,7 @@ https://user-images.githubusercontent.com/87855802/158629781-8a34413f-60f9-4872-
 # Features Added
 ✅ Control Visualization Speed
 
-✅ Change array size (30 -> 400)
+✅ Change array size (5 -> 250)
 
 ✅ Randomize Input
 

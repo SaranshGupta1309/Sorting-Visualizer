@@ -1,0 +1,176 @@
+*{
+    padding :0px;
+    margin:0px;
+}
+
+body{
+    background-color:#0d1929;
+    font-family:sans-serif;
+}
+/* Header styling */
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02e095;
+    height: 7vh;
+    padding : 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.slidecontainer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height : 5vh;
+}
+/* Here we added styles for slider. We added these styles for chrome and edge*/
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none; 
+    appearance: none;
+    background: #f1f1f1;
+    border-radius: 30px;
+    border: none;
+    height : 5px;
+    
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    margin-top: -5px;
+    border-radius: 50%;
+    outline: 3px solid #053a5f;
+    outline-offset: -3.5px;
+ }
+
+.slider{
+    width: 13vw;  
+    cursor:pointer;
+}
+.slider-text{
+    color: #0d1929;
+    text-align:center;
+    margin-bottom: 2vh;
+}
+.size strong{
+    padding:2px;
+}
+#size strong{
+    padding-top: 10px;
+}
+
+/*Style for Buttons*/
+.header button{
+    font-size: 80%;
+    background-color:#0d1929;
+    color:white;
+    font-weight: bold;
+    border:none;
+    margin: 2px;
+    margin-top: 4px;
+    cursor:pointer;
+    transition : 0.2s;
+    height:30px;
+    width: 100px;
+}
+
+.header button:hover{
+    transform: scale(1.1);
+}
+
+/*Here We added Styles for the Visible part of dropdown Box*/
+.sortBox{
+    padding:0.5vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d1929;
+    width:10vw;
+    height:4vh;
+    color : #ffffff;
+    align-items: center;
+    cursor:pointer;
+    margin-left: 1vw;
+}
+.dropdown-text{
+    width:250px;
+}
+.dropdown{
+    position: relative;  
+}
+/*Here we Added Styles for the hidden part of DropDown Box*/
+.dropdown-content{
+   position: absolute;
+   display: none;
+   margin-top: 12px;
+   top:30px;
+   width : 200px;
+   background-color: #f1f1f1;
+   color:black;
+}
+.dropdown-content li{
+    padding:10px;
+}
+.dropdown-content li:hover{
+    background-color: #ddd;
+}
+/*Styles on GitHub and linkedin Logo*/
+#accounts{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 45px;
+    position: absolute;
+}
+#accounts img{
+    height:40px;
+    width:40px;
+    transition: 0.1s;
+    margin-top: 2px;
+}
+
+#accounts img:hover{
+    transform: scale(1.05);
+}
+
+.show{
+    display : block;
+}
+
+/*Here We added Styles for The div in which all the bars are present*/
+#bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;      /*We wrote this because we wanted our bars to start from bottom */
+    margin-top: 20px;
+    height: 84vh;
+    width: 100%;
+}
+
+/*Styles for the bars*/
+/*We wrote traansition here, so tere is no abrupt change in bars when they are swapped*/
+.bars{
+    background-color:white;
+    border: 0.5px solid black;
+    transition: 100ms height ease;
+}
+.bars-sorted{
+    background-color: green;
+}
+.bars-selected{
+    background-color: orange;
+}
+.bars-compared{
+    background-color: yellow;
+}
+/*This class will add to the disabled buttons*/
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.disabled:hover{
+    transform:scale(1);
+}

@@ -154,7 +154,7 @@ input[type="range"]::-webkit-slider-thumb {
 .bars{
     background-color:white;
     border: 0.5px solid black;
-    transition: 100ms height ease;
+    transition: 100ms height;
 }
 .bars-sorted{
     background-color: green;
@@ -167,10 +167,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 /*This class will add to the disabled buttons*/
 .disabled{
-    cursor: not-allowed;
+    cursor: not-allowed !important;
     opacity: 0.5;
 }
 
 .disabled:hover{
-    transform:scale(1);
-}
+    transform:scale(1) !important;
+} 
